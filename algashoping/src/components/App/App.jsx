@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Checkbox from "../../shared/Checkbox/Checkbox";
+import LineChart from "../../shared/LineChart/LineChart";
 import AppContainer from "../AppContainer/AppContainer";
 import AppHeader from "../AppHeader/AppHeader";
 import { Wrapper, Container } from './App.styles';
@@ -23,6 +24,12 @@ function App () {
                     </div>}
                 right={<div>
                     estatisticas
+
+                        <LineChart 
+                        color="#09f"
+                        title="saudavel"
+                        percentage={80}
+                        />
                     </div>}    
 
             />
