@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from '../assets/bg.svg'
+import bg from '../../assets/bg.svg'
 
 export const Wrapper = styled.div `
     height: 100vh;
